@@ -22,18 +22,6 @@ import java.util.Map;
 @CrossOrigin
 public class ShareController {
 
-    /**
-     * 微信公众号的appid
-     */
-    @Value("${wx.open.app_id}")
-    private String appid;
-
-    /**
-     * 微信公众号的appSecret
-     */
-    @Value("${wx.open.app_secret}")
-    private String secret;
-
     @Autowired
     private ShareService shareService;
     /**
